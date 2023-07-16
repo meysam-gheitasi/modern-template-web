@@ -1,8 +1,8 @@
-import React from 'react';
+import { logo, menu, close } from "../assets"
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="flex justify-between items  py-6 w-full">
             Navbar
         </div>
     );
