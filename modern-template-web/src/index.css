@@ -28,16 +28,14 @@
 }
 
 .bg-blue-gradient {
-    background: linear-gradient(
-      157.81deg,
-      #def9fa -43.27%,
-      #bef3f5 -21.24%,
-      #9dedf0 12.19%,
-      #7de7eb 29.82%,
-      #5ce1e6 51.94%,
-      #33bbcf 90.29%
-    );
-  }
+    background: linear-gradient(157.81deg,
+            #def9fa -43.27%,
+            #bef3f5 -21.24%,
+            #9dedf0 12.19%,
+            #7de7eb 29.82%,
+            #5ce1e6 51.94%,
+            #33bbcf 90.29%);
+}
 
 
 .bg-discount-gradient {
@@ -73,3 +71,18 @@
         transform: translateY(0);
     }
 }
+
+.pink__gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+  }
+
+  .white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+  }
+
+  .blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+  }
