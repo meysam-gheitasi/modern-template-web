@@ -21,7 +21,7 @@ const Hero = () => {
                     We examine annual percentage rates, annual fees.</p>
             </div>
 
-            <div className="flex justify-center items-center relative">
+            <div className="flex justify-center items-center relative my-10 md:my-0">
                 <img className="w-[100%] h-[100%] relative z-[5]" src={robot} alt="billing" />
                 <div className=" absolute rounded-full top-0 w-[70%] h-[50%] pink__gradient z-[0]"></div>
                 <div className=" absolute top-52 w-[50%] h-[50%] blue__gradient z-[0]"></div>
