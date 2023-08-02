@@ -1,28 +1,33 @@
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-import Stats from "./components/Stats"
+import styles from "./style";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 
 const App = () => (
-  <div className=" min-h-full bg-primary overflow-hidden">
-
-    <div className="flex justify-center items-center md:px-16 px-6">
-      <div className="w-full xl:max-w-[1280px]">
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className=" bg-primary flex justify-center items-start">
-      <div className="w-full xl:max-w-[1280px]">
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
     </div>
-
-    <div className="flex justify-center items-start bg-primary md:px-16 px-6">
-      <div className=" xl:max-w-[1280px] w-full">
+    
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
         <Stats />
+        <Business />
+        <Billing />
+        <CardDeal />
+        <Testimonials />
+        <Clients />
+        <CTA />
+        <Footer />
       </div>
     </div>
   </div>
-)
+);
 
-export default App
+export default App;
